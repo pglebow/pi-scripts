@@ -1,0 +1,8 @@
+/var/log/updateSystemAndPi/updateSystemAndPi.log {
+  rotate 2
+  weekly
+  compress
+  missingok
+  notifempty
+  create 640 pi pi
+}
