@@ -1,0 +1,5 @@
+if [ "$reason" = "PREINIT" ]; then
+        sudo ip -6 addr add fdaa:bbcc:ddee:2::5552/128 dev eth0
+        sudo ip -4 addr add 192.168.62.251/24 dev eth0 label eth0:1
+        exit 0
+fi
