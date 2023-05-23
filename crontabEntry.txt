@@ -1,1 +1,1 @@
-0 14 * * * /home/pi/pi-scripts/updateSystemAndPi.sh >> /var/log/updateSystemAndPi/updateSystemAndPi.log 2>&1
+0 14 * * * /home/pihole/pi-scripts/updateSystemAndPi.sh >> /var/log/updateSystemAndPi/updateSystemAndPi.log 2>&1
